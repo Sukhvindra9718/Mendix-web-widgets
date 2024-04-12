@@ -1,0 +1,24 @@
+.widget-temperatureconverter-clickable {
+    cursor: pointer;
+}
+
+.widget-temperatureconverter {
+    display: inline-block;
+}
+
+.widget-temperatureconverter.badge:empty {
+    display: initial;
+    /* Fix padding to stay round */
+    padding: 3px 10px;
+}
+
+.widget-temperatureconverter.label:empty {
+    display: initial;
+    /* Fix padding to stay square */
+    padding: .2em .8em .3em;
+}
+
+.widget-temperatureconverter.badge {
+    min-width: 18px;
+    min-height: 18px;
+}
